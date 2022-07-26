@@ -199,4 +199,38 @@ body{
     }
 }
 
+@media screen and  (max-width: 376px) {
+    .modal-cont {
+        height: 45vh;
+        top: calc((100vh - 45vh) / 2);
+        
+    }
+        .action-btn-cont {
+            margin-left: 3rem;
+            
+        }
+    
+        .action-btn-cont>* {
+            font-size: 1.3rem;
+        }
+    
+
+}
+
+@media screen and (max-width: 321px) {
+    .modal-cont {
+        height: 40vh;
+        top: calc((100vh - 40vh) / 2);
+    }
+
+        .action-btn-cont {
+            margin-left: 1rem;
+    
+        }
+    
+        .action-btn-cont>* {
+            font-size: 0.9rem;
+        }
+}
+
 
